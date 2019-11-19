@@ -7,7 +7,7 @@ Examples of my code in Python
 
 This code creates a random forest from dynamically generated decision trees to classify data as a machine learning technique. The decision trees classify based on the highest Gini impurity gain for a given attribute of the features data. These decision trees are limited in size by a depth parameter that can be toggled for accuracy. The random forest specifies a number of trees to create and selects specific attribiutes to train with for each tree. The final classification of data results from the majority vote of the random forest.
 
-To test the effectiveness of the random forest, a parameter vaue determines the number of k-folds created as testing and training data. Specifically in the code, 10 folds of 9 training parts and 1 testing part are generated to train the forest and test its effectiveness. This forest achieved an accuracy of 0.887 on the test data, while the same code on the Kaggle Challenge data resulted in an accuracy of 0.817.
+To test the effectiveness of the random forest, a parameter value determines the number of k-folds created as testing and training data. Specifically in the code, 10 folds of 9 training parts and 1 testing part are generated to train the forest and test its effectiveness. This forest achieved an accuracy of 0.887 on the test data, while the same code on the Kaggle Challenge data resulted in an accuracy of 0.817.
 
 Other code for confusion matrices, accuracy, precision, recall, and vectorization is also present.
 
